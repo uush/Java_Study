@@ -8,5 +8,10 @@ public class Dog extends Animal{ //eat() {?}
 	public void eat() {
 		System.out.println("개처럼 먹다.");
 	}
+	
+	public Dog() {
+		//부모에 있는 Animal에 생성자를 호출.
+		super(); //new Animal();
+	}
 
 }
