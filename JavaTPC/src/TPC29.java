@@ -9,7 +9,7 @@ public class TPC29 {
 		
 	}
 
-	private static void display(Object o) { // 다형성 인
+	private static void display(Object o) { // 다형성 인자
 		if(o instanceof A) {
 			// 하위 클래스의 메서드 go()를 사용하고 싶으면 다운캐스팅 해야 한다.
 			((A)o).go();
