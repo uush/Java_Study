@@ -1,5 +1,5 @@
 package kr.infrine;
-
+// int형만 담을 수 있음.	
 public class intArray {
 	private int count;
 	private int[] arr;
@@ -7,7 +7,7 @@ public class intArray {
 		this(10);
 	}
 	public intArray(int init) {
-			arr = new int[init];
+		arr = new int[init];
 	}
 	public void add(int data) {
 		arr[count++] = data;
