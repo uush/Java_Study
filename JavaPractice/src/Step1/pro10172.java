@@ -1,3 +1,5 @@
+package Step1;
+
 public class pro10172 {
 
 	public static void main(String[] args) {
