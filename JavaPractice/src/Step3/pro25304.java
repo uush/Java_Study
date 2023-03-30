@@ -5,8 +5,6 @@ import java.util.Scanner;
 public class pro25304 {
 
 	public static void main(String[] args) {
-		//물건 종류, 가격, 개수, 총 금액
-
 		int mnt = 0;
 		
 		Scanner sc = new Scanner(System.in);
